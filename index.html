@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="shortcut icon" href="/icon-task.svg" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="box-todo">
+        <div class="wrapper-todo">
+            <div class="t-wrapper">
+                <div class="title">
+                    <h1>Lista de tarefas</h1>
+                    <img src="./icon-task.svg" alt="">
+                </div>
+                <div class="todo">
+                    <input id="inputTask" type="text" placeholder="Adicione uma tarefa">
+                    <button id="btnTask" onclick="addTask()">Adicionar</button>
+                </div>
+            </div>
+            <div class="b-wrapper">
+                <ul id="listTask">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li>
+                    <li>Task 4</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
